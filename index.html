@@ -7,7 +7,21 @@
     <title>create JSON</title>
 </head>
 <style>
-    
+    #container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    span{
+        margin: 20px 0px;
+        font-size: larger;
+        font-weight: bolder;
+    }
+    input , textarea{
+        margin: 10px 0px;
+        width: 500px;
+    }
 </style>
 
 <body>
@@ -21,7 +35,9 @@
         <input type="text" placeholder="recommended">
         <input type="text" placeholder="codingURL">
         <input type="text" placeholder="SolutionURL">
-        <input type="text" placeholder="Question Desription">
+        <textarea type="text" placeholder="Question Desription"></textarea>
+
+        <button>Submit Now</button>
 
     </div>
 </body>
