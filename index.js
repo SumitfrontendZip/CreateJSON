@@ -1,7 +1,7 @@
 const dsaDATA = [];
 class json {
   constructor(slug, subtitle, diff, time, rec, cURL, SURL, QD) {
-    this.slug = slug;
+    this.slug = SURL;
     this.title = slug;
     this.subtitle = subtitle;
     this.difficulty = diff;
@@ -11,7 +11,7 @@ class json {
     this.time = time;
     this.recommended = rec;
     this.codingURL = cURL;
-    this.solutionURL = SURL;
+    this.solutionURL = "https://solution.com/"+ SURL;
     this.QuestionDescription = QD;
   }
 }
